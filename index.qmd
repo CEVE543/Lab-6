@@ -1,8 +1,16 @@
 ---
-title: "Lab 6"
-subtitle: "Model Implementation and Testing"
+title: "Lab 6: Why Uncertainty Matters"
+subtitle: "Extreme values with depth-damage curves, Coastal flood applications, Uncertainty propagation beyond rainfall"
 author: CEVE 543 Fall 2025
-date: "2025-10-10"
+date: "2025-10-03"
+type: "lab"
+module: 1
+week: 6
+objectives:
+  - "Apply extreme value analysis to coastal flood risk assessment"
+  - "Understand uncertainty propagation through depth-damage curves"
+  - "Explore broader applications of uncertainty quantification"
+ps_connection: "Broader applications - not required for PS completion"
 
 engine: julia
 
@@ -12,7 +20,7 @@ format:
     toc-depth: 2
     code-block-bg: "#f8f8f8"
     code-block-border-left: "#e1e4e5"
-    theme: default
+    theme: cosmo
     number-sections: true
     fig-format: svg
   typst:
@@ -35,7 +43,7 @@ code-block-font-size: "0.85em"
 
 ## Topics
 
-- Coding run_hydromodel function
-- Time-stepping loops
-- Basic hydrograph visualization
+- Extreme values with depth-damage curves
+- Coastal flood applications
+- Uncertainty propagation beyond rainfall
 

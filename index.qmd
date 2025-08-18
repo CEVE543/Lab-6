@@ -1,6 +1,6 @@
 ---
 title: "Lab 6"
-subtitle: "Semi-Empirical SLR Model Implementation"
+subtitle: "Model Implementation and Testing"
 author: CEVE 543 Fall 2025
 date: "2025-10-10"
 
@@ -32,4 +32,10 @@ code-overflow: wrap
 code-line-numbers: false
 code-block-font-size: "0.85em"
 ---
+
+## Topics
+
+- Coding run_hydromodel function
+- Time-stepping loops
+- Basic hydrograph visualization
 

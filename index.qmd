@@ -41,9 +41,32 @@ code-line-numbers: false
 code-block-font-size: "0.85em"
 ---
 
-## Topics
+## Objectives
 
-- Extreme values with depth-damage curves
-- Coastal flood applications
-- Uncertainty propagation beyond rainfall
+1. Apply extreme value analysis to coastal flood risk assessment
+1. Understand uncertainty propagation through depth-damage curves
+1. Explore broader applications of uncertainty quantification
+
+## Before
+
+::: {.callout-important}
+## Instructions
+
+Do this before the lab date so that lab itself can go more smoothly.
+:::
+
+## Background and Reading
+
+<!-- Content will be added here -->
+
+## Tasks
+
+Modify the code section below to address the following tasks.
+
+1. Apply extreme value analysis to coastal flood risk scenarios
+1. Implement uncertainty propagation through depth-damage curves
+1. Explore broader applications beyond rainfall-based risk assessment
+1. Analyze compound uncertainties in flood risk quantification
+
+## Code
 

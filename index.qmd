@@ -1,5 +1,5 @@
 ---
-title: "Lab 6: Why Uncertainty Matters"
+title: "CEVE 543 Fall 2025 Lab 6: Why Uncertainty Matters"
 subtitle: "Extreme values with depth-damage curves, Coastal flood applications, Uncertainty propagation beyond rainfall"
 author: CEVE 543 Fall 2025
 date: "2025-10-03"

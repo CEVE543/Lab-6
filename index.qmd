@@ -1,16 +1,17 @@
 ---
-title: "CEVE 543 Fall 2025 Lab 6: Why Uncertainty Matters"
-subtitle: "Extreme values with depth-damage curves, Coastal flood applications, Uncertainty propagation beyond rainfall"
+title: "CEVE 543 Fall 2025 Lab 6: Model Implementation and Testing"
+subtitle: "Hydrological model implementation, time-stepping algorithms, validation strategies"
 author: CEVE 543 Fall 2025
-date: "2025-10-03"
+date: "2025-10-17"
 type: "lab"
-module: 1
-week: 6
+module: 2
+week: 9
 objectives:
-  - "Apply extreme value analysis to coastal flood risk assessment"
-  - "Understand uncertainty propagation through depth-damage curves"
-  - "Explore broader applications of uncertainty quantification"
-ps_connection: "Broader applications - not required for PS completion"
+  - "Implement hydrological model time-stepping algorithms"
+  - "Code the run_hydromodel function with proper structure"
+  - "Test model implementation and validate results"
+  - "Establish foundation for calibration exercises"
+ps_connection: "Builds hydrological model implementation skills for PS2 Task 1 (implementing and testing the snowmelt-runoff model)"
 
 engine: julia
 
@@ -43,9 +44,10 @@ code-block-font-size: "0.85em"
 
 ## Objectives
 
-1. Apply extreme value analysis to coastal flood risk assessment
-1. Understand uncertainty propagation through depth-damage curves
-1. Explore broader applications of uncertainty quantification
+1. Implement hydrological model time-stepping algorithms
+1. Code the run_hydromodel function with proper structure
+1. Test model implementation and validate results
+1. Establish foundation for calibration exercises
 
 ## Before
 
@@ -63,10 +65,10 @@ Do this before the lab date so that lab itself can go more smoothly.
 
 Modify the code section below to address the following tasks.
 
-1. Apply extreme value analysis to coastal flood risk scenarios
-1. Implement uncertainty propagation through depth-damage curves
-1. Explore broader applications beyond rainfall-based risk assessment
-1. Analyze compound uncertainties in flood risk quantification
+1. Implement hydrological model time-stepping algorithms with mass balance
+1. Code the run_hydromodel function following proper software structure
+1. Test model implementation against known benchmarks and validate results
+1. Establish foundation for upcoming calibration and uncertainty exercises
 
 ## Code
 

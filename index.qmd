@@ -1,17 +1,17 @@
 ---
-title: "CEVE 543 Fall 2025 Lab 6: Model Implementation and Testing"
-subtitle: "Hydrological model implementation, time-stepping algorithms, validation strategies"
+title: "CEVE 543 Fall 2025 Lab 6: Julia Climate Data Tools"
+subtitle: "YAXArrays.jl, NetCDF.jl, exploring CMIP6 data structure"
 author: CEVE 543 Fall 2025
 date: "2025-10-17"
 type: "lab"
 module: 2
 week: 9
 objectives:
-  - "Implement hydrological model time-stepping algorithms"
-  - "Code the run_hydromodel function with proper structure"
-  - "Test model implementation and validate results"
-  - "Establish foundation for calibration exercises"
-ps_connection: "Builds hydrological model implementation skills for PS2 Task 1 (implementing and testing the snowmelt-runoff model)"
+  - "Load and explore climate model output using YAXArrays.jl"
+  - "Work with NetCDF files and understand CMIP6 data structure"
+  - "Extract and visualize climate model data for specific locations and time periods"
+  - "Establish foundation for downscaling and bias correction exercises"
+ps_connection: "Establishes data handling skills needed for all PS2 problems working with climate model output"
 
 engine: julia
 
@@ -44,10 +44,10 @@ code-block-font-size: "0.85em"
 
 ## Objectives
 
-1. Implement hydrological model time-stepping algorithms
-1. Code the run_hydromodel function with proper structure
-1. Test model implementation and validate results
-1. Establish foundation for calibration exercises
+1. Load and explore climate model output using YAXArrays.jl
+1. Work with NetCDF files and understand CMIP6 data structure
+1. Extract and visualize climate model data for specific locations and time periods
+1. Establish foundation for downscaling and bias correction exercises
 
 ## Before
 
@@ -65,10 +65,18 @@ Do this before the lab date so that lab itself can go more smoothly.
 
 Modify the code section below to address the following tasks.
 
-1. Implement hydrological model time-stepping algorithms with mass balance
-1. Code the run_hydromodel function following proper software structure
-1. Test model implementation against known benchmarks and validate results
-1. Establish foundation for upcoming calibration and uncertainty exercises
+1. Load climate model output files using YAXArrays.jl and NetCDF.jl
+1. Explore CMIP6 data structure and metadata
+1. Extract temperature and precipitation data for specific locations and time periods
+1. Create visualizations comparing climate model output to observations
 
 ## Code
+
+```{julia}
+#| output: false
+using Pkg
+lab_dir = dirname(@__FILE__)
+Pkg.activate(lab_dir)
+# Pkg.instantiate() # uncomment this the first time you run the lab to install packages, then comment it back
+```
 
